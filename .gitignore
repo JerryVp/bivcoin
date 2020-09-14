@@ -2,15 +2,15 @@
 
 *.exe
 *.pdb
-src/bitcoin
-src/bitcoind
-src/bitcoin-cli
-src/bitcoin-tx
-src/bitcoin-wallet
+src/bivcoin
+src/bivcoind
+src/bivcoin-cli
+src/bivcoin-tx
+src/bivcoin-wallet
 src/test/fuzz
 !src/test/fuzz/*.*
-src/test/test_bitcoin
-src/qt/test/test_bitcoin-qt
+src/test/test_bivcoin
+src/qt/test/test_bivcoin-qt
 
 # autoreconf
 Makefile.in
@@ -58,6 +58,7 @@ src/qt/bitcoin-qt.includes
 .deps
 .dirstamp
 .libs
+.vscode
 .*.swp
 *.*~*
 *.bak
@@ -90,8 +91,8 @@ src/qt/bitcoin-qt.includes
 *.qm
 Makefile
 !depends/Makefile
-src/qt/bitcoin-qt
-Bitcoin-Qt.app
+src/qt/bivcoin-qt
+Bivcoin-Qt.app
 background.tiff*
 
 # Qt Creator
@@ -99,7 +100,7 @@ Makefile.am.user
 
 # Unit-tests
 Makefile.test
-bitcoin-qt_test
+bivcoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -115,7 +116,7 @@ releases
 *.gcno
 *.gcda
 /*.info
-test_bitcoin.coverage/
+test_bivcoin.coverage/
 total.coverage/
 coverage_percent.txt
 

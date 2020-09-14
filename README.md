@@ -1,33 +1,33 @@
-Bitcoin Core integration/staging tree
+Bivcoin Core integration/staging tree
 =====================================
 
-https://bitcoincore.org
+https://bitcoin-value.org
 
-What is Bitcoin?
+What is Bivcoin?
 ----------------
 
-Bitcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
+Bivcoin is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. Bivcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Bitcoin Core is the name of open source
+out collectively by the network. Bivcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately usable, binary version of
-the Bitcoin Core software, see https://bitcoincore.org/en/download/, or read the
-[original whitepaper](https://bitcoincore.org/bitcoin.pdf).
+the Bivcoin Core software, see https://bitcoin-value.org/en/download/, or read the
+[original whitepaper](https://bitcoin-value.org/bivcoin.pdf).
 
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Bivcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of Bitcoin Core.
+completely stable. [Tags](https://github.com/bitcoin-value/bivcoin/tags) are created
+regularly to indicate new official, stable release versions of Bivcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
 and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).

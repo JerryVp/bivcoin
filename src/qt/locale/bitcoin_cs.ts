@@ -66,11 +66,11 @@
         <translation>Přijímací adresy</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Bivcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Tohle jsou tvé bitcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.</source>
+        <source>These are your Bivcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.</source>
         <translation>Tohle jsou tvé bitcoinové adresy pro příjem plateb. Použij 'Vytvoř novou přijímací adresu' v záložce Přijmi pro vytvoření nové adresy.</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Potvrď zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BIVCOINS&lt;/b&gt;!</source>
         <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY BITCOINY&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -362,7 +362,7 @@
         <translation>Proxy je &lt;b&gt;zapnutá&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Bivcoin address</source>
         <translation>Pošli mince na bitcoinovou adresu</translation>
     </message>
     <message>
@@ -398,11 +398,11 @@
         <translation>Zašifruj soukromé klíče ve své peněžence</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Bivcoin addresses to prove you own them</source>
         <translation>Podepiš zprávy svými bitcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Bivcoin addresses</source>
         <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými bitcoinovými adresami</translation>
     </message>
     <message>
@@ -422,8 +422,8 @@
         <translation>Panel s listy</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Požaduj platby (generuje QR kódy a bitcoin: URI)</translation>
+        <source>Request payments (generates QR codes and bivcoin: URIs)</source>
+        <translation>Požaduj platby (generuje QR kódy a bivcoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -438,7 +438,7 @@
         <translation>Ar&amp;gumenty příkazové řádky</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Bivcoin network</source>
         <translation><numerusform>%n aktivní spojení do bitcoinové sítě</numerusform><numerusform>%n aktivní spojení do bitcoinové sítě</numerusform><numerusform>%n aktivních spojení do bitcoinové sítě</numerusform><numerusform>%n aktivních spojení do bitcoinové sítě</numerusform></translation>
     </message>
     <message>
@@ -498,8 +498,8 @@
         <translation>Přijímací adresy</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>Načíst Bitcoin: URI</translation>
+        <source>Open a bivcoin: URI</source>
+        <translation>Načíst Bivcoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -518,8 +518,8 @@
         <translation>Zavřít peněženku</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Seznam argumentů Bitcoinu pro příkazovou řádku získáš v nápovědě %1</translation>
+        <source>Show the %1 help message to get a list with possible Bivcoin command-line options</source>
+        <translation>Seznam argumentů Bivcoinu pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -630,8 +630,8 @@
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;zamčená&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Bitcoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. Bivcoin can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Bivcoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -874,7 +874,7 @@
         <translation>Uprav odesílací adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Bivcoin address.</source>
         <translation>Zadaná adresa „%1“ není platná bitcoinová adresa.</translation>
     </message>
     <message>
@@ -971,8 +971,8 @@
         <translation>Použij tento adresář pro data:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Bivcoin</source>
+        <translation>Bivcoin</translation>
     </message>
     <message>
         <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
@@ -987,7 +987,7 @@
         <translation>Bude proto potřebovat do tohoto adresáře uložit přibližně %1 GB dat.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Bivcoin block chain.</source>
         <translation>%1 bude stahovat kopii blockchainu.</translation>
     </message>
     <message>
@@ -1223,7 +1223,7 @@
         <translation>&amp;Utrácet i ještě nepotvrzené drobné</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Bivcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -1239,7 +1239,7 @@
         <translation>Přijí&amp;mat příchozí spojení</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Bivcoin network through a SOCKS5 proxy.</source>
         <translation>Připojí se do bitcoinové sítě přes SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1275,7 +1275,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Bivcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Připojí se do bitcoinové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
     </message>
     <message>
@@ -1386,7 +1386,7 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bivcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s bitcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
@@ -1461,16 +1461,16 @@
         <translation>Chyba platebního požadavku</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit bitcoin: obsluha click-to-pay</translation>
+        <source>Cannot start bivcoin: click-to-pay handler</source>
+        <translation>Nemůžu spustit bivcoin: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Zpracování URI</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'bitcoin://' není platné URI. Místo toho použij 'bitcoin:'.</translation>
+        <source>'bivcoin://' is not a valid URI. Use 'bivcoin:' instead.</source>
+        <translation>'bivcoin://' není platné URI. Místo toho použij 'bivcoin:'.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.</source>
@@ -1489,7 +1489,7 @@
         <translation>Neplatná platební adresa %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Bivcoin address or malformed URI parameters.</source>
         <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná bitcoinová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
@@ -1531,7 +1531,7 @@
         <translation>Částka</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Bivcoin address (e.g. %1)</source>
         <translation>Zadej bitcoinovou adresu (např. %1)</translation>
     </message>
     <message>
@@ -2000,7 +2000,7 @@
         <translation>&amp;Zpráva:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bivcoin network.</source>
         <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po bitcoinové síti.</translation>
     </message>
     <message>
@@ -2353,8 +2353,8 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>Vytvořit bez podpisu</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation>Vytvořit částečně podepsanou Bitcoin transakci (Partially Signed Bitcoin Transaction - PSBT) k použtí kupříkladu s offline %1 peněženkou nebo s jinou kompatibilní PSBT hardware peněženkou.</translation>
+        <source>Creates a Partially Signed Bivcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Vytvořit částečně podepsanou Bivcoin transakci (Partially Signed Bivcoin Transaction - PSBT) k použtí kupříkladu s offline %1 peněženkou nebo s jinou kompatibilní PSBT hardware peněženkou.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2377,7 +2377,7 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>Jsi si jistý, že tuhle transakci chceš poslat?</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Bivcoin Transaction (PSBT) which you can copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <translation>Zkontrolujte prosím svůj návrh transakce. Výsledkem bude částečně podepsaná bitcoinová transakce (PSBT), kterou můžete kopírovat a poté podepsat např. pomocí offline %1 peněženky nebo hardwarové peněženky kompatibilní s PSBT.</translation>
     </message>
     <message>
@@ -2469,7 +2469,7 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation><numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Bivcoin address</source>
         <translation>Upozornění: Neplatná bitcoinová adresa</translation>
     </message>
     <message>
@@ -2508,8 +2508,8 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>Vyber již použitou adresu</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoinová adresa příjemce</translation>
+        <source>The Bivcoin address to send the payment to</source>
+        <translation>Bivcoinová adresa příjemce</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2560,8 +2560,8 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Zpráva, která byla připojena k bitcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po bitcoinové síti.</translation>
+        <source>A message that was attached to the bivcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bivcoin network.</source>
+        <translation>Zpráva, která byla připojena k bivcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po bitcoinové síti.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2598,8 +2598,8 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout bitcoiny. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoinová adresa, kterou se zpráva podepíše</translation>
+        <source>The Bivcoin address to sign the message with</source>
+        <translation>Bivcoinová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2630,7 +2630,7 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>Zkopíruj tento podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Bivcoin address</source>
         <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této bitcoinové adresy</translation>
     </message>
     <message>
@@ -2654,8 +2654,8 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>K ověření podpisu zprávy zadej adresu příjemce, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem. Poznamenejme však, že takto lze pouze prokázat, že podepisující je schopný na dané adrese přijmout platbu, ale není možnéprokázat, že odeslal jakoukoli transakci!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoinová adresa, kterou je zpráva podepsána</translation>
+        <source>The Bivcoin address the message was signed with</source>
+        <translation>Bivcoinová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2666,7 +2666,7 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>Podpis daný při podpisu zprávy</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Bivcoin address</source>
         <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou bitcoinovou adresou</translation>
     </message>
     <message>

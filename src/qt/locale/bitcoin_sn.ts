@@ -155,8 +155,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Bivcoin</source>
+        <translation>Bivcoin</translation>
     </message>
     </context>
 <context>
@@ -187,8 +187,8 @@
         <translation>Marii</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Nyora kero ye Bitcoin (sekuti %1)</translation>
+        <source>Enter a Bivcoin address (e.g. %1)</source>
+        <translation>Nyora kero ye Bivcoin (sekuti %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

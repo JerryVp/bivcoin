@@ -66,12 +66,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Bitcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw bitcoins verzendt.</translation>
+        <source>These are your Bivcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Bivcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw bitcoins verzendt.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.</source>
-        <translation>Dit zijn jouw Bitcoin adressen voor het ontvangen van betalingen. Gebruik de 'Nieuwe ontvangst adres maken' knop in de ontvangst tab om een nieuwe adres te maken.</translation>
+        <source>These are your Bivcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.</source>
+        <translation>Dit zijn jouw Bivcoin adressen voor het ontvangen van betalingen. Gebruik de 'Nieuwe ontvangst adres maken' knop in de ontvangst tab om een nieuwe adres te maken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BITCOINS VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BIVCOINS&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BIVCOINS VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -362,8 +362,8 @@
         <translation>Proxy is &lt;b&gt;ingeschakeld&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Verstuur munten naar een Bitcoinadres</translation>
+        <source>Send coins to a Bivcoin address</source>
+        <translation>Verstuur munten naar een Bivcoinadres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -398,12 +398,12 @@
         <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Bivcoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Bivcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified Bivcoin addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bivcoinadressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -422,8 +422,8 @@
         <translation>Tab-werkbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en bitcoin: URI's)</translation>
+        <source>Request payments (generates QR codes and bivcoin: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en bivcoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -438,8 +438,8 @@
         <translation>&amp;Opdrachtregelopties</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n actieve verbinding met Bitcoinnetwerk</numerusform><numerusform>%n actieve verbindingen met Bitcoinnetwerk</numerusform></translation>
+        <source>%n active connection(s) to Bivcoin network</source>
+        <translation><numerusform>%n actieve verbinding met Bivcoinnetwerk</numerusform><numerusform>%n actieve verbindingen met Bivcoinnetwerk</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -498,8 +498,8 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
-        <translation>Open een bitcoin: URI</translation>
+        <source>Open a bivcoin: URI</source>
+        <translation>Open een bivcoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -518,8 +518,8 @@
         <translation>Portemonnee Sluiten</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Toon het %1 hulpbericht om een lijst te krijgen met mogelijke Bitcoin commandoregelopties</translation>
+        <source>Show the %1 help message to get a list with possible Bivcoin command-line options</source>
+        <translation>Toon het %1 hulpbericht om een lijst te krijgen met mogelijke Bivcoin commandoregelopties</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -630,8 +630,8 @@
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout heeft zich voorgedaan. Bitcoin kan niet veilig worden verdergezet en wordt afgesloten.</translation>
+        <source>A fatal error occurred. Bivcoin can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout heeft zich voorgedaan. Bivcoin kan niet veilig worden verdergezet en wordt afgesloten.</translation>
     </message>
 </context>
 <context>
@@ -875,8 +875,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Bewerk verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Het opgegeven adres "%1" is een ongeldig Bitcoinadres.</translation>
+        <source>The entered address "%1" is not a valid Bivcoin address.</source>
+        <translation>Het opgegeven adres "%1" is een ongeldig Bivcoinadres.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -972,8 +972,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Gebruik een aangepaste gegevensmap:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Bivcoin</source>
+        <translation>Bivcoin</translation>
     </message>
     <message>
         <source>Discard blocks after verification, except most recent %1 GB (prune)</source>
@@ -988,8 +988,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Gemiddeld %1 GB aan data zal worden opgeslagen in deze map.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 zal een kopie van de blokketen van Bitcoin downloaden en opslaan.</translation>
+        <source>%1 will download and store a copy of the Bivcoin block chain.</source>
+        <translation>%1 zal een kopie van de blokketen van Bivcoin downloaden en opslaan.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1024,7 +1024,7 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de portemonnee is daarom mogelijk niet correct. Deze informatie is correct zodra de synchronisatie met het Bitcoin-netwerk is voltooid, zoals onderaan beschreven.</translation>
+        <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de portemonnee is daarom mogelijk niet correct. Deze informatie is correct zodra de synchronisatie met het Bivcoin-netwerk is voltooid, zoals onderaan beschreven.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1224,8 +1224,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>&amp;Spendeer onbevestigd wisselgeld</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Bitcoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Bivcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Bivcoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1240,8 +1240,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Sta inkomende verbindingen toe</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Verbind met het Bitcoinnetwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the Bivcoin network through a SOCKS5 proxy.</source>
+        <translation>Verbind met het Bivcoinnetwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1276,8 +1276,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Maak verbinding met Bitcoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
+        <source>Connect to the Bivcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Maak verbinding met Bivcoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1387,8 +1387,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bivcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het Bivcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1462,7 +1462,7 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Fout bij betalingsverzoek</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start bivcoin: click-to-pay handler</source>
         <translation>Kan bitcoin niet starten: click-to-pay handler</translation>
     </message>
     <message>
@@ -1470,8 +1470,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>URI-behandeling</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'bitcoin://' is niet een geldige URI. Gebruik 'bitcoin:' in plaats daarvan.</translation>
+        <source>'bivcoin://' is not a valid URI. Use 'bivcoin:' instead.</source>
+        <translation>'bivcoin://' is niet een geldige URI. Gebruik 'bivcoin:' in plaats daarvan.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.</source>
@@ -1490,8 +1490,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Bitcoin adres of misvormde URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Bivcoin address or malformed URI parameters.</source>
+        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Bivcoin adres of misvormde URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1532,8 +1532,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Voer een Bitcoinadres in (bijv. %1)</translation>
+        <source>Enter a Bivcoin address (e.g. %1)</source>
+        <translation>Voer een Bivcoinadres in (bijv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2001,8 +2001,8 @@ Dit is ideaal voor alleen-lezen portommonees.</translation>
         <translation>&amp;Bericht</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Bitcoinnetwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bivcoin network.</source>
+        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Bivcoinnetwerk.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2354,8 +2354,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Cr&amp;eëer Ongetekend</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation>Creëert een Partially Signed Bitcoin Transaction (PSBT) om te gebruiken met b.v. een offline %1 wallet, of een PSBT-compatibele hardware wallet.</translation>
+        <source>Creates a Partially Signed Bivcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Creëert een Partially Signed Bivcoin Transaction (PSBT) om te gebruiken met b.v. een offline %1 wallet, of een PSBT-compatibele hardware wallet.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2378,8 +2378,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Weet u zeker dat u wilt verzenden?</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation>Gelieve je transactie-voorstel te controleren. Dit zal een Partially Signed Bitcoin Transaction (PSBT) maken die je kan kopiëren en dan tekenen met b.v. een offline %1 wallet, of een PSBT-compatibele hardware wallet.</translation>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Bivcoin Transaction (PSBT) which you can copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation>Gelieve je transactie-voorstel te controleren. Dit zal een Partially Signed Bivcoin Transaction (PSBT) maken die je kan kopiëren en dan tekenen met b.v. een offline %1 wallet, of een PSBT-compatibele hardware wallet.</translation>
     </message>
     <message>
         <source>or</source>
@@ -2470,8 +2470,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation><numerusform>Schatting is dat bevestiging begint over %n blok.</numerusform><numerusform>Schatting is dat bevestiging begint over %n blokken.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Waarschuwing: Ongeldig Bitcoinadres</translation>
+        <source>Warning: Invalid Bivcoin address</source>
+        <translation>Waarschuwing: Ongeldig Bivcoinadres</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2509,8 +2509,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Kies een eerder gebruikt adres</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Het Bitcoinadres om betaling aan te versturen</translation>
+        <source>The Bivcoin address to send the payment to</source>
+        <translation>Het Bivcoinadres om betaling aan te versturen</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2561,8 +2561,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de bitcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Bitcoinnetwerk.</translation>
+        <source>A message that was attached to the bivcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bivcoin network.</source>
+        <translation>Een bericht dat werd toegevoegd aan de bivcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Bivcoinnetwerk.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2596,11 +2596,11 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Bitcoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
+        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Bivcoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Het Bitcoinadres om bericht mee te ondertekenen</translation>
+        <source>The Bivcoin address to sign the message with</source>
+        <translation>Het Bivcoinadres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2631,8 +2631,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
+        <source>Sign the message to prove you own this Bivcoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bivcoinadres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2655,8 +2655,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Voer het adres van de ontvanger in, bericht (zorg ervoor dat de regeleinden, spaties, tabs etc. precies kloppen) en onderteken onderaan om het bericht te verifiëren. Wees voorzicht om niet meer in de ondertekening te lezen dan in het getekende bericht zelf, om te voorkomen dat je wordt aangevallen met een man-in-the-middle attack. Houd er mee rekening dat dit alleen de ondertekende partij bewijst met het ontvangen adres, er kan niet bewezen worden dat er een transactie heeft plaatsgevonden!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Het Bitcoinadres waarmee het bericht ondertekend is</translation>
+        <source>The Bivcoin address the message was signed with</source>
+        <translation>Het Bivcoinadres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2667,8 +2667,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>De handtekening waarmee het bericht ondertekend werd</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified Bivcoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bivcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

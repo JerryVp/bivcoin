@@ -1,6 +1,6 @@
-# Support for Output Descriptors in Bitcoin Core
+# Support for Output Descriptors in Bivcoin Core
 
-Since Bitcoin Core v0.17, there is support for Output Descriptors. This is a
+Since Bivcoin Core v0.17, there is support for Output Descriptors. This is a
 simple language which can be used to describe collections of output scripts.
 Supporting RPCs are:
 - `scantxoutset` takes as input descriptors to scan for, and also reports
@@ -91,7 +91,7 @@ Descriptors consist of several types of expressions. The top level expression is
 `ADDR` expressions are any type of supported address:
 - P2PKH addresses (base58, of the form `1...` for mainnet or `[nm]...` for testnet). Note that P2PKH addresses in descriptors cannot be used for P2PK outputs (use the `pk` function instead).
 - P2SH addresses (base58, of the form `3...` for mainnet or `2...` for testnet, defined in [BIP 13](https://github.com/bitcoin/bips/blob/master/bip-0013.mediawiki)).
-- Segwit addresses (bech32, of the form `bc1...` for mainnet or `tb1...` for testnet, defined in [BIP 173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki)).
+- Segwit addresses (bech32, of the form `biv1...` for mainnet or `tbiv1...` for testnet, defined in [BIP 173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki)).
 
 ## Explanation
 
@@ -112,7 +112,7 @@ not contain "p2" for brevity.
 ### Multisig
 
 Several pieces of software use multi-signature (multisig) scripts based
-on Bitcoin's OP_CHECKMULTISIG opcode. To support these, we introduce the
+on Bivcoin's OP_CHECKMULTISIG opcode. To support these, we introduce the
 `multi(k,key_1,key_2,...,key_n)` and `sortedmulti(k,key_1,key_2,...,key_n)`
 functions. They represent a *k-of-n*
 multisig policy, where any *k* out of the *n* provided `KEY` expressions must
@@ -189,7 +189,7 @@ steps, or for dumping wallet descriptors including private key material.
 ### Compatibility with old wallets
 
 In order to easily represent the sets of scripts currently supported by
-existing Bitcoin Core wallets, a convenience function `combo` is
+existing Bivcoin Core wallets, a convenience function `combo` is
 provided, which takes as input a public key, and describes a set of P2PK,
 P2PKH, P2WPKH, and P2SH-P2WPH scripts for that key. In case the key is
 uncompressed, the set only includes P2PK and P2PKH scripts.
@@ -206,7 +206,7 @@ be detected in descriptors up to 501 characters, and up to 3 errors in longer
 ones. For larger numbers of errors, or other types of errors, there is a
 roughly 1 in a trillion chance of not detecting the errors.
 
-All RPCs in Bitcoin Core will include the checksum in their output. Only
+All RPCs in Bivcoin Core will include the checksum in their output. Only
 certain RPCs require checksums on input, including `deriveaddress` and
 `importmulti`. The checksum for a descriptor without one can be computed
 using the `getdescriptorinfo` RPC.
