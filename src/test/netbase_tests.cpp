@@ -91,15 +91,15 @@ BOOST_AUTO_TEST_CASE(netbase_splithost)
     BOOST_CHECK(TestSplitHost("www.bitcoincore.org:80", "www.bitcoincore.org", 80));
     BOOST_CHECK(TestSplitHost("[www.bitcoincore.org]:80", "www.bitcoincore.org", 80));
     BOOST_CHECK(TestSplitHost("127.0.0.1", "127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("127.0.0.1:8333", "127.0.0.1", 8333));
+    BOOST_CHECK(TestSplitHost("127.0.0.1:8339", "127.0.0.1", 8339));
     BOOST_CHECK(TestSplitHost("[127.0.0.1]", "127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("[127.0.0.1]:8333", "127.0.0.1", 8333));
+    BOOST_CHECK(TestSplitHost("[127.0.0.1]:8339", "127.0.0.1", 8339));
     BOOST_CHECK(TestSplitHost("::ffff:127.0.0.1", "::ffff:127.0.0.1", -1));
-    BOOST_CHECK(TestSplitHost("[::ffff:127.0.0.1]:8333", "::ffff:127.0.0.1", 8333));
-    BOOST_CHECK(TestSplitHost("[::]:8333", "::", 8333));
-    BOOST_CHECK(TestSplitHost("::8333", "::8333", -1));
-    BOOST_CHECK(TestSplitHost(":8333", "", 8333));
-    BOOST_CHECK(TestSplitHost("[]:8333", "", 8333));
+    BOOST_CHECK(TestSplitHost("[::ffff:127.0.0.1]:8339", "::ffff:127.0.0.1", 8339));
+    BOOST_CHECK(TestSplitHost("[::]:8339", "::", 8339));
+    BOOST_CHECK(TestSplitHost("::8339", "::8339", -1));
+    BOOST_CHECK(TestSplitHost(":8339", "", 8339));
+    BOOST_CHECK(TestSplitHost("[]:8339", "", 8339));
     BOOST_CHECK(TestSplitHost("", "", -1));
 }
 
@@ -112,17 +112,17 @@ bool static TestParse(std::string src, std::string canon)
 BOOST_AUTO_TEST_CASE(netbase_lookupnumeric)
 {
     BOOST_CHECK(TestParse("127.0.0.1", "127.0.0.1:65535"));
-    BOOST_CHECK(TestParse("127.0.0.1:8333", "127.0.0.1:8333"));
+    BOOST_CHECK(TestParse("127.0.0.1:8339", "127.0.0.1:8339"));
     BOOST_CHECK(TestParse("::ffff:127.0.0.1", "127.0.0.1:65535"));
     BOOST_CHECK(TestParse("::", "[::]:65535"));
-    BOOST_CHECK(TestParse("[::]:8333", "[::]:8333"));
+    BOOST_CHECK(TestParse("[::]:8339", "[::]:8339"));
     BOOST_CHECK(TestParse("[127.0.0.1]", "127.0.0.1:65535"));
     BOOST_CHECK(TestParse(":::", "[::]:0"));
 
     // verify that an internal address fails to resolve
     BOOST_CHECK(TestParse("[fdd7:1195:4a15:1:2:3:4:5]", "[::]:0"));
     // and that a one-off resolves correctly
-    BOOST_CHECK(TestParse("[fdd7:1195:4a15:1:2:3:4:5]", "[fdd7:1195:4a15:1:2:3:4:5]:65535"));
+    BOOST_CHECK(TestParse("[fd6c:88c0:8724:1:2:3:4:5]", "[fd6c:88c0:8724:1:2:3:4:5]:65535"));
 }
 
 BOOST_AUTO_TEST_CASE(onioncat_test)
