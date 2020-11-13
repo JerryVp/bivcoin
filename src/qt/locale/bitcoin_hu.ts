@@ -756,8 +756,8 @@
         <translation>Ez a címke pirosra változik, ha bármely fogadóhoz, a porszem határértéknél kevesebb összeg érkezik.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Megadott értékenként  +/- %1 satoshi-val változhat.</translation>
+        <source>Can vary +/- %1 yamatona(s) per input.</source>
+        <translation>Megadott értékenként  +/- %1 yamatona-val változhat.</translation>
     </message>
     <message>
         <source>(no label)</source>

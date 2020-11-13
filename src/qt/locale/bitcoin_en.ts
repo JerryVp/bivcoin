@@ -967,7 +967,7 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <source>Can vary +/- %1 yamatona(s) per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

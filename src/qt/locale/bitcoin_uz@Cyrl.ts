@@ -537,8 +537,8 @@
         <translation>йўқ</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Ҳар бир кирим +/- %1 сатоши(лар) билан ўзгариши мумкин.</translation>
+        <source>Can vary +/- %1 yamatona(s) per input.</source>
+        <translation>Ҳар бир кирим +/- %1 яматона(лар) билан ўзгариши мумкин.</translation>
     </message>
     <message>
         <source>(no label)</source>

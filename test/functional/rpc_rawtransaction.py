@@ -446,12 +446,12 @@ class RawTransactionsTest(BitcoinTestFramework):
 
         self.sync_all()
         inputs = [{ "txid" : txId, "vout" : vout['n'] }]
-        # Fee 10,000 satoshis, (1 - (10000 sat * 0.00000001 BIV/sat)) = 0.9999
+        # Fee 10,000 yamatonas, (1 - (10000 yam * 0.00000001 BIV/yam)) = 0.9999
         outputs = { self.nodes[0].getnewaddress() : Decimal("0.99990000") }
         rawTx = self.nodes[2].createrawtransaction(inputs, outputs)
         rawTxSigned = self.nodes[2].signrawtransactionwithwallet(rawTx)
         assert_equal(rawTxSigned['complete'], True)
-        # Fee 10,000 satoshis, ~100 b transaction, fee rate should land around 100 sat/byte = 0.00100000 BIV/kB
+        # Fee 10,000 yamatonas, ~100 b transaction, fee rate should land around 100 yam/byte = 0.00100000 BIV/kB
         # Thus, testmempoolaccept should reject
         testres = self.nodes[2].testmempoolaccept([rawTxSigned['hex']], 0.00001000)[0]
         assert_equal(testres['allowed'], False)
@@ -470,12 +470,12 @@ class RawTransactionsTest(BitcoinTestFramework):
 
         self.sync_all()
         inputs = [{ "txid" : txId, "vout" : vout['n'] }]
-        # Fee 2,000,000 satoshis, (1 - (2000000 sat * 0.00000001 BIV/sat)) = 0.98
+        # Fee 2,000,000 yamatonas, (1 - (2000000 yam * 0.00000001 BIV/yam)) = 0.98
         outputs = { self.nodes[0].getnewaddress() : Decimal("0.98000000") }
         rawTx = self.nodes[2].createrawtransaction(inputs, outputs)
         rawTxSigned = self.nodes[2].signrawtransactionwithwallet(rawTx)
         assert_equal(rawTxSigned['complete'], True)
-        # Fee 2,000,000 satoshis, ~100 b transaction, fee rate should land around 20,000 sat/byte = 0.20000000 BIV/kB
+        # Fee 2,000,000 yamatonas, ~100 b transaction, fee rate should land around 20,000 yam/byte = 0.20000000 BIV/kB
         # Thus, testmempoolaccept should reject
         testres = self.nodes[2].testmempoolaccept([rawTxSigned['hex']])[0]
         assert_equal(testres['allowed'], False)

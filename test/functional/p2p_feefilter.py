@@ -61,22 +61,22 @@ class FeeFilterTest(BitcoinTestFramework):
         self.nodes[0].add_p2p_connection(TestP2PConn())
 
         # Test that invs are received by test connection for all txs at
-        # feerate of .2 sat/byte
+        # feerate of .2 yam/byte
         node1.settxfee(Decimal("0.00000200"))
         txids = [node1.sendtoaddress(node1.getnewaddress(), 1) for x in range(3)]
         assert allInvsMatch(txids, self.nodes[0].p2p)
         self.nodes[0].p2p.clear_invs()
 
-        # Set a filter of .15 sat/byte on test connection
+        # Set a filter of .15 yam/byte on test connection
         self.nodes[0].p2p.send_and_ping(msg_feefilter(150))
 
-        # Test that txs are still being received by test connection (paying .15 sat/byte)
+        # Test that txs are still being received by test connection (paying .15 yam/byte)
         node1.settxfee(Decimal("0.00000150"))
         txids = [node1.sendtoaddress(node1.getnewaddress(), 1) for x in range(3)]
         assert allInvsMatch(txids, self.nodes[0].p2p)
         self.nodes[0].p2p.clear_invs()
 
-        # Change tx fee rate to .1 sat/byte and test they are no longer received
+        # Change tx fee rate to .1 yam/byte and test they are no longer received
         # by the test connection
         node1.settxfee(Decimal("0.00000100"))
         [node1.sendtoaddress(node1.getnewaddress(), 1) for x in range(3)]

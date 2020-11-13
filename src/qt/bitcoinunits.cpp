@@ -43,7 +43,7 @@ QString BitcoinUnits::longName(int unit)
     case BIV: return QString("BIV");
     case mBIV: return QString("mBIV");
     case uBIV: return QString::fromUtf8("µBIV (bits)");
-    case SAT: return QString("Satoshi (sat)");
+    case SAT: return QString("Yamatona (yam)");
     default: return QString("???");
     }
 }
@@ -53,7 +53,7 @@ QString BitcoinUnits::shortName(int unit)
     switch(unit)
     {
     case uBIV: return QString::fromUtf8("bits");
-    case SAT: return QString("sat");
+    case SAT: return QString("yam");
     default: return longName(unit);
     }
 }
@@ -65,7 +65,7 @@ QString BitcoinUnits::description(int unit)
     case BIV: return QString("Bivcoins");
     case mBIV: return QString("Milli-Bivcoins (1 / 1" THIN_SP_UTF8 "000)");
     case uBIV: return QString("Micro-Bivcoins (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    case SAT: return QString("Satoshi (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case SAT: return QString("Yamatona (yam) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

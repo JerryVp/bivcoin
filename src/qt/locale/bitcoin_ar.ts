@@ -742,8 +742,8 @@
         <translation>يتحول هذا الملصق إلى اللون الأحمر إذا تلقى أي مستلم كمية أصغر من عتبة الغبار الحالية.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>يمكن أن يختلف +/- %1 من ساتوشي(s) لكل إدخال.</translation>
+        <source>Can vary +/- %1 yamatona(s) per input.</source>
+        <translation>يمكن أن تختلف +/-٪ 1 yamatona (s) لكل المدخلات.</translation>
     </message>
     <message>
         <source>(no label)</source>

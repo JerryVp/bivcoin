@@ -769,8 +769,8 @@
         <translation>当任何一个收款金额小于目前的粉尘金额阈值时，文字会变红色。</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>每个输入可能有 +/- %1 聪 (satoshi) 的误差。</translation>
+        <source>Can vary +/- %1 yamatona(s) per input.</source>
+        <translation>每个输入可以变化+/-％1 yamatona。</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2235,10 +2235,10 @@
     <message>
         <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
 
-Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 yamatonas per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 yamatonas.</source>
         <translation>按照交易的虚拟大小自定义每kB ( 1,000 字节 )要交多少手续费。
 
-注意:手续费是按照字节数计算的，对于一笔大小为500字节（1kB的一半）的交易来说，"每kB付100聪手续费"就意味着手续费一共只付了50聪。</translation>
+注意:手续费是按照字节数计算的，对于一笔大小为500字节（1kB的一半）的交易来说，"每kB付100yamatona手续费"就意味着手续费一共只付了50yamatona。</translation>
     </message>
     <message>
         <source>per kilobyte</source>

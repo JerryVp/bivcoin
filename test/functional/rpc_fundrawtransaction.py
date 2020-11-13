@@ -732,7 +732,7 @@ class RawTransactionsTest(BitcoinTestFramework):
         assert_equal(share[2], share[3])
 
         # Output 0 takes at least as much share of the fee, and no more than 2
-        # satoshis more, than outputs 2 and 3.
+        # yamatonas more, than outputs 2 and 3.
         assert_greater_than_or_equal(share[0], share[2])
         assert_greater_than_or_equal(share[2] + Decimal(2e-8), share[0])
 
