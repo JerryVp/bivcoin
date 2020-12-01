@@ -194,9 +194,9 @@ public:
         m_assumed_blockchain_size = 40;
         m_assumed_chain_state_size = 2;
 
-        genesis = CreateGenesisBlock(1606780800, 1937080187, 0x1d00ffff, 1, 3000000 * COIN); // 01/12/2020 09:00:00 JP Times
+        genesis = CreateGenesisBlock(1604400094, 341320124, 0x1d00ffff, 1, 3000000 * COIN); // 03/11/2020 07:41:34 PM JP Times
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x000000000e141c01b697270053489af2f1bf400038cfd4e7799eba6c0da7c2ed"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000000009618fd62516a90f6000f9b05af70757e62a703418f868826d7b8c1f5"));
         assert(genesis.hashMerkleRoot == uint256S("0xae344fa994b98fde02e19f0bfd5e401e18b669982f3e586c9519dcace62103e3"));
 
         vFixedSeeds.clear();
@@ -224,7 +224,7 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("0x000000000e141c01b697270053489af2f1bf400038cfd4e7799eba6c0da7c2ed")},
+                {0, uint256S("0x000000009618fd62516a90f6000f9b05af70757e62a703418f868826d7b8c1f5")},
             }
         };
 

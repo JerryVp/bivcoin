@@ -5,7 +5,7 @@ Setup
 ---------------------
 Bivcoin Core is the original Bivcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Bivcoin transactions, which requires a few hundred gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Bivcoin Core, visit [bivcoincore.org](https://bitcoin-value.org/en/download/).
+To download Bivcoin Core, visit [bivcoincore.org](https://bitcoin-value.io/en/download/).
 
 Running
 ---------------------
@@ -28,7 +28,7 @@ Drag Bivcoin Core to your applications folder, and then run Bivcoin Core.
 
 ### Need Help?
 
-* See the documentation at the [Bivcoin Wiki](https://en.bitcoin-value.it/wiki/Main_Page)
+* See the documentation at the [Bivcoin Wiki](https://en.bitcoin-value.io/wiki/Main_Page)
 for help and more information.
 * Ask for help on [#bivcoin](https://webchat.freenode.net/#bivcoin) on Freenode. If you don't have an IRC client, use [webchat here](https://webchat.freenode.net/#bivcoin).
 * Ask for help on the [BivcoinTalk](https://bivcointalk.org/) forums, in the [Technical Support board](https://bivcointalk.org/index.php?board=4.0).

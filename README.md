@@ -1,7 +1,7 @@
 Bivcoin Core integration/staging tree
 =====================================
 
-https://bitcoin-value.org
+https://bitcoin-value.io
 
 What is Bivcoin?
 ----------------
@@ -13,8 +13,8 @@ out collectively by the network. Bivcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately usable, binary version of
-the Bivcoin Core software, see https://bitcoin-value.org/en/download/, or read the
-[original whitepaper](https://bitcoin-value.org/bivcoin.pdf).
+the Bivcoin Core software, see https://bitcoin-value.io/en/download/, or read the
+[original whitepaper](https://bitcoin-value.io/bivcoin.pdf).
 
 License
 -------

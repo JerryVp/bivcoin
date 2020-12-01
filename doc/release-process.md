@@ -322,7 +322,7 @@ bivcoin.org (see below for bivcoin.org update instructions).
   - bivcoincore.org blog post
 
   - bivcoincore.org maintained versions update:
-    [table](https://github.com/bitcoin-value/bitcoin-value.org/commits/master/_includes/posts/maintenance-table.md)
+    [table](https://github.com/bitcoin-value/bitcoin-value.io/commits/master/_includes/posts/maintenance-table.md)
 
   - bivcoincore.org RPC documentation update
 
