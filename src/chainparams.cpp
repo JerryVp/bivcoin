@@ -113,7 +113,7 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        // vSeeds.emplace_back("seed.bitcoin.sipa.be"); // Pieter Wuille, only supports x1, x5, x9, and xd
+        vSeeds.emplace_back("seed.bitcoin-value.io"); // Pieter Wuille, only supports x1, x5, x9, and xd
         // vSeeds.emplace_back("dnsseed.bluematt.me"); // Matt Corallo, only supports x9
         // vSeeds.emplace_back("dnsseed.bitcoin.dashjr.org"); // Luke Dashjr
         // vSeeds.emplace_back("seed.bitcoinstats.com"); // Christian Decker, supports x1 - xf
@@ -202,7 +202,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        // vSeeds.emplace_back("testnet-seed.bitcoin.jonasschnelli.ch");
+        vSeeds.emplace_back("seed.tbiv.bitcoin-value.io");
         // vSeeds.emplace_back("seed.tbiv.petertodd.org");
         // vSeeds.emplace_back("seed.testnet.bitcoin.sprovoost.nl");
         // vSeeds.emplace_back("testnet-seed.bluematt.me"); // Just a static list of stable node(s), only supports x9
